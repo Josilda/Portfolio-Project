@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Fredericka+the+Great&family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <header id="heading">
+        <nav class="navbar">
+            <div class="content">
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <li class="links"><a href="#about">ABOUT</a></li>
+                    <li class="links"><a href="#skills">SKILLS</a></li>
+                    <li class="links"><a href="#project">PROJECTS</a></li>
+                    <li class="links"><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="middle">
+        <div id="about">
+            <div id="name">
+                <h1>Hello, <span class="auto-input"></span></h1>
+            </div>
+            <div id="profileImg">
+                <img class="slideShow" src="images\IMG-0468.jpg" alt="Profile Image">
+                <img class="slideShow" src="images\profileImage2.jpg" alt="Profile Image">
+            </div>
+
+            <div id="content">
+                <p>I'm currently enrolled in IT Career Switch traineeship in coding and will be certified as a Web Developer.</p>
+                <p>I have completed Cerification for HTML5 & CSS3 Web Design Fundamental with Javascript on 17th Feb 2023, Javascript Essential on 25th Jan 2023, Introduction to Python on 30th Sept 2022 and Bootstrap on 12th Oct 2023.</p>
+                <p>I'm currently in the process of Full Stack Engineering course and will be completing jQuery, Python 3, PHP, two practical Projects and a Portfolio website as a Full Stack Developer.</p>
+                <p>I have completed my Bachelors of Computer Application in Goa University, India. I believe that the knowledge and skills built up during this time will make a better prospect at my future work place. I can provide good problem solving ability towards the situtation and open minded person towards learning new things.</p>
+            </div>
+        </div>
+
+        <div id="skills">
+            <h1>Skills</h1>
+            <img src="images/HTML5.png" alt="HTML and CSS3">
+            <img src="images/CSS3.png" alt="HTML and CSS3">
+            <img src="images/JavaScript.png" alt="JavaScript">
+            <img src="images\Git.png" alt="Git">
+            <img src="images\python_logo.png" alt="Python">
+            <img src="images\Bootstrap.png" alt="Bootstrap">
+            <img src="images\GitHub-logo.png" alt="GitHub">
+        </div>
+
+        <div id="project">
+            <h1>Projects</h1>
+            <div class="sub-projects">
+                <div class="images">
+                    <a href="https://josilda.github.io/Tea-Cozy/"><img src="images\First_Project.png" alt="First challenging Project"></a>
+                </div>
+                <div class="project-content">
+                    <a href="https://josilda.github.io/Tea-Cozy/"><h2>Tea Cozy</h2></a>
+                    <p>This project is to build Tea Cozy website using basic HTML and CSS language with little guidance of the format of the web page.</p>
+                </div>
+            </div>
+
+            <div class="sub-projects">
+                <div class="images">
+                    <a href="https://josilda.github.io/Broadway/"><img src="images\Second_Project.png" alt="First Broadway Project"></a>
+                </div>
+                <div class="project-content">
+                    <a href="https://josilda.github.io/Broadway/"><h2>Broadway</h2></a>
+                    <p>In this project, you will see properties such as display and position to improve the layout of the landing page for a fictional design firm, Broadway Design. The positioning of the navigation menu at the top of the page and the bottom of the page is fixed.</p>
+                </div>
+            </div>
+
+            <div class="sub-projects">
+                <div class="images">
+                    <a href="https://josilda.github.io/Responsive-Club/"><img src="images\Third_Project.png" alt="Responsive CLub Website"></a>
+                </div>
+                <div class="project-content">
+                    <a href="https://josilda.github.io/Responsive-Club/"><h2>Responsive Club Website</h2></a>
+                    <p>In this project, the club group page that will dynamically respond as you adjust the size of your screen!​</p>
+                </div>
+            </div>
+
+            <div class="sub-projects">
+                <div class="images">
+                    <a href="https://josilda.github.io/Nuimber-Gusser/"><img src="images\Fourth_Project.png" alt="Number Guesser Game"></a>
+                </div>
+                <div class="project-content">
+                    <a href="https://josilda.github.io/Nuimber-Gusser/"><h2>Number Guesser.</h2></a>
+                    <p>In this project, JavaScript functions is used to power a small guessing game.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h1>Contact Me</h1>
+            <a href="https://www.linkedin.com/in/josilda-pereira-b07145218/"><img src="images\linkedin.webp" alt="LinkedIn"></a>
+            <a href="https://github.com/Josilda"><img src="images\GitHub.png" alt="GitHub"></a>
+            <a href="mailto:=pjosilda@gmail.com"><img src="images\Email.png" alt="Email"></a>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; Josilda Porfolio 2024</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="myScript.js"></script>
+    <script>
+        const body = document.querySelector("body");
+        const heading = document.querySelector(".heading");
+        const navbar = document.querySelector(".navbar");
+        const content = document.querySelector(".content");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            body.classList.add("disabledscroll");
+        }
+        cancelBtn.onclick = () => {
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            body.classList.remove("disabledscroll");
+        }
+        
+        menu.onclick = (e) => {
+            if(e.target.id !== 'heading' && e.target.id !== 'navbar' && e.target.id !== 'content') {
+                menu.classList.remove("active");
+                menuBtn.classList.remove("hide");
+                body.classList.remove("disabledscroll");
+            }
+        }
+
+
+    </script>
+</body>
+</html>
