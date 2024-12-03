@@ -2,9 +2,7 @@
 
 •	My portfolio website is about me, skills, projects and contact information.
 
-
-<img width="959" alt="image" src="https://github.com/Josilda/Portfolio-Project/assets/127415346/9d4a21ee-8b70-4f32-932f-8154ecf517c7">
-
+<img width="944" alt="Portfolio" src="https://github.com/user-attachments/assets/71e02fe8-df1e-4fae-a2a8-07db1afe1d99">
 
 •	Built a Portfolio website using HTML, CSS and interactive feature of JavaScript.
 
